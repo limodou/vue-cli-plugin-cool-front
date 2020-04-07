@@ -1,0 +1,11 @@
+{
+  "name": "vue-cli-plugin-jwmod",
+  "description": "A vue-cli plugin for jwap application modules",
+  "version": "1.0.0",
+  "scripts": {},
+  "author": "Limodou",
+  "license": "MIT",
+  "homepage": "",
+  "repository": "https://github.com/limodou/vue-cli-plugin-jwmod",
+  "bugs": ""
+}
