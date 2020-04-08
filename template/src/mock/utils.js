@@ -11,7 +11,7 @@ Mock.setup({
 const wrap = (url, func) => {
   if (typeof func === 'function') {
     return (req) => {
-      let res = func(req)
+      let res = func(req, Mock)
       console.log('Mock result =====>', url, req, {
         result: res
       })
