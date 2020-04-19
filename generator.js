@@ -6,13 +6,11 @@ module.exports = (api, options) => {
   } = api.options
 
   // 添加启动命令
-  if (port !== 8080) {
-    api.extendPackage({
-      scripts: {
-        serve: `vue-cli-service serve --port ${port}`
-      }
-    })
-  }
+  api.extendPackage({
+    scripts: {
+      serve: `vue-cli-service serve --port ${port}`
+    }
+  })
   const projectName = require(api.resolve('package.json')).name;
 
   api.render('./template', {
