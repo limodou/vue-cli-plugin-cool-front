@@ -8,8 +8,9 @@ module.exports = (api, options) => {
   // 添加启动命令
   api.extendPackage({
     scripts: {
-      serve: `vue-cli-service serve --port ${port}`
-    }
+      serve: `vue-cli-service serve --port ${port}`,
+      "serve:mock": "vue-cli-service serve --port ${port} --mode mock",
+  }
   })
   const projectName = require(api.resolve('package.json')).name;
 
