@@ -9,7 +9,7 @@ module.exports = (api, options) => {
   api.extendPackage({
     scripts: {
       serve: `vue-cli-service serve --port ${port}`,
-      "serve:mock": "vue-cli-service serve --port ${port} --mode mock",
+      "serve:mock": `vue-cli-service serve --port ${port} --mode mock`,
   }
   })
   const projectName = require(api.resolve('package.json')).name;
