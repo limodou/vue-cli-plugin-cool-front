@@ -41,9 +41,8 @@ module.exports = (api, projectOptions) => {
       },
       output: {
         // 把应用打包成 umd 库格式
-        library: `${name}-[name]`,
+        library: `${name}`,
         libraryTarget: 'umd',
-        jsonpFunction: `webpackJsonp_${name}`
       }
     }
   })

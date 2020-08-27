@@ -1,3 +1,4 @@
+//eslint-disable-next-line
 const request = window.$hub.api.request
 
 // export const list = () => {
