@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-cool-front",
   "description": "A vue-cli plugin for creatin cool-front micro frontend application",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "scripts": {},
   "author": "Limodou",
   "license": "MIT",

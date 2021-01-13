@@ -24,9 +24,14 @@ module.exports = (api, options) => {
       "vuex": '^3.1.2'
     },
     devDependencies: {
-      'better-mock': '^0.2.3',
+      'better-mock': '^0.2.9',
       "less": "^3.10.3",
       "less-loader": "^5.0.0",
-    }
+    },
+    browserslist: [
+      "> 1%",
+      "last 2 versions",
+      "IE > 10"
+    ]
   })
 }
